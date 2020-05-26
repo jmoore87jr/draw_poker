@@ -1,7 +1,7 @@
 # draw_poker
 Monte Carlo simulator for 2-7 draw poker games
 
-The simulator currently has 2 functions: 
+draw_poker.py currently has 2 functions: 
 
 1. deal5() only takes an argument for the # of simulations. It deals 5 cards and categorizes the hand into 7-hi thru pair+. 
   *e.g. deal5(100000) for the distribution of starting 5 card hands*
@@ -13,3 +13,11 @@ Future plans:
 
 1. input 2 hands
 2. range vs. range equity graph after draw
+
+
+
+Badugi.py:
+
+1. newHand() will show you the format of a hand
+2. draw() takes starting hand, # of draws, # of simulations
+
